@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Asuna, Courageous Duelist",
+    "set": "SAO Vol.1",
+    "rarity": "Rare",
+    "color": "Red",                   
+    "cardNumber": "SAO/S40-001",      
+    "imageUrl": "https://…/asuna.jpg",
+    "price": 0.0
+  },
+  {
+    "id": 2,
+    "name": "Kirito, Dual Wield Hero",
+    "set": "SAO Vol.1",
+    "rarity": "Super Rare",
+    "color": "Blue",
+    "cardNumber": "SAO/S40-002",
+    "imageUrl": "https://…/kirito.jpg",
+    "price": 0.0
+  }
+]

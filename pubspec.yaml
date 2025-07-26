@@ -1,0 +1,38 @@
+name: weis_schwarz_tracker
+description: >
+  A desktop application for managing a collection of Weiß Schwarz trading cards and
+  trial decks. This project allows users to track owned cards, decks and
+  wishlisted items while providing scraping and PDF export capabilities.
+version: 0.1.0
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.11
+  http: ^0.13.6
+  html: ^0.15.3
+  pdf: ^3.10.4
+  printing: ^5.11.0
+  fl_chart: ^0.63.0
+
+  # TODO: Investigate additional packages (e.g. animations, themes) to enhance
+  # the modern feel of the UI. See lib/services/price_scraper.dart for other
+  # research TODOs.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.3
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/data/
